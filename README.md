@@ -14,3 +14,13 @@
 > 
 > These are just a few basic commands to get you started with tmux. It's a powerful tool with many more features, so feel free to explore its documentation or online guides for more advanced usage.
 
+To close a tmux session with ID 2, you need to first ensure that you're not currently attached to it. If you're not attached to the session, you can simply kill it using the tmux ```kill-session -t <session_id>``` command. Here's how to do it:
+
+First, detach from any tmux session you might be attached to by pressing``` Ctrl + B, then d```.
+
+Once you're back in your regular terminal, type the following command to kill the tmux session with ID 2:.
+
+Copy code
+```tmux kill-session -t 2```
+
+**This command will terminate the tmux session with ID 2**.
