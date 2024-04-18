@@ -1,8 +1,8 @@
 ## tmux
-> **What is tmux?** Tmux stands for "terminal multiplexer." It's a command-line tool that allows you to split your terminal window into multiple panes or windows, enabling you to run multiple terminal sessions within one window. It's especially useful for managing multiple tasks or sessions on a remote server or when working with multiple command-line interfaces.
-> 
-> **Basic tmux Commands:**
-> 
+ **What is tmux?** Tmux stands for "terminal multiplexer." It's a command-line tool that allows you to split your terminal window into multiple panes or windows, enabling you to run multiple terminal sessions within one window. It's especially useful for managing multiple tasks or sessions on a remote server or when working with multiple command-line interfaces.
+
+ **Basic tmux Commands:**
+ 
 > 1. **Starting tmux:** Simply type `tmux` into your terminal and press Enter. This will start a new tmux session.
 > 2. **Creating Windows:** Inside tmux, you can create multiple windows. Press `Ctrl + B`, then `c` to create a new window.
 > 3. **Navigating Windows:** To navigate between windows, press `Ctrl + B`, then the window number (e.g., `0`, `1`, `2`, etc.).
